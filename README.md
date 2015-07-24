@@ -26,3 +26,4 @@ REQUIREMENT
           root    ALL=(ALL)       ALL
           user-foo        ALL= NOPASSWD: /sbin/iptables
 
+5. And follow all other settings that need to run a perl script, i.e. let file executable, giving right owner/group(ship) etc.
