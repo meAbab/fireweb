@@ -7,7 +7,7 @@ That's let me to inspire learn perl and program this package. This program will 
 
 --> You also need to uncommend line 40 to get the DROP function active. Uncomment it with your own risk. 
 
-          --> Once you forgot the secret, with DROP all command active - you'll not able to login your own server                   until your current public IP not mached with the IP last time your system updated.
+   --> Once you forgot the secret, with DROP all command active - you'll not able to login your own server                   until your current public IP not mached with the IP last time your system updated.
 
 I must say, that its not properly secure - as you need to put ssl and encryption technique also not upto par.
 As program Source code contain the key. So better use ssl and use random value and updated hash algorithm.
