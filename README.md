@@ -20,3 +20,9 @@ REQUIREMENT
           > install Crypt::CBC
 
 3. Default Pass is - khubGopon
+4. You need to change your sudoers file [or use visudo] to allow apache user to run iptables.
+
+          ## Allow root to run any commands anywhere
+          root    ALL=(ALL)       ALL
+          user-foo        ALL= NOPASSWD: /sbin/iptables
+
