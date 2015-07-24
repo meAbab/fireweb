@@ -3,7 +3,11 @@
 One of my long time client, often taking different solution if many different projects and paying me with very good money,
 is often travelling here and there. Thus required for him to login from different source IP from different network type.
 
-That's let me to inspire learn perl and program this package. 
+That's let me to inspire learn perl and program this package. This program will actually allow you a web interface asking secret to allow your current public IP to get access to the server. Once your secret is correct your current IP will allowed to system and all others will blocked (DROP). This IP will remain unchanged until you did the above task again. 
+
+--> You also need to uncommend line 40 to get the DROP function active. Uncomment it with your own risk. 
+
+          --> Once you forgot the secret, with DROP all command active - you'll not able to login your own server                   until your current public IP not mached with the IP last time your system updated.
 
 I must say, that its not properly secure - as you need to put ssl and encryption technique also not upto par.
 As program Source code contain the key. So better use ssl and use random value and updated hash algorithm.
